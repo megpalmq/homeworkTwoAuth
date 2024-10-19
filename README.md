@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+# Homework 2👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+- You must create a React Native Expo app using tabs.
 
-## Get started
+- You must style your application. Please use a nice color palette.
+- You must also incorporate images into your project.
+- You must have at least 3 tabs and style each of the views. Stay consistent in your styling.
+- You must have a log-out button located somewhere in your app. It can be a fourth tab if you would like.
+- Upon logout, you must return to the home screen.
+- To help understand this. Your app must allow users to sign up, sign in, and sign out of the application. You can only view the tabs if a user is signed in or not.
+- Your README file must fully describe what the app does, how to install everything I need, and how to run it on my phone.
+- Upload this to Github as a public repo.
+- Submit your Github link to this assignment. (This link must work or you will receive a 0)
 
-1. Install dependencies
+## To Run
+
+1. git clone the repository-url
+
+2. Install dependencies
 
    ```bash
-   npm install
+      expo start
    ```
 
-2. Start the app
+3. Start the app
 
    ```bash
-    npx expo start
+    npm run start
    ```
 
-In the output, you'll find options to open the app in a
+   After downloading, make sure to do the npm install to get all the dependencies for the project.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Dont forget to start up your andriod emmulator to show the phone QR code as well as the application to appear on the emmulator!
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+You might also have to run "npm install" to make sure you have all the dependencies ☺️
